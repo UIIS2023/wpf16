@@ -1,0 +1,27 @@
+﻿<Window x:Class="FudbalskiTimWPF.Forme.Trener"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FudbalskiTimWPF.Forme"
+        mc:Ignorable="d"
+        Title="Trener" Height="400" Width="300">
+    <Grid Margin="0,10,0,4">
+        <Label Content="Ime:" HorizontalAlignment="Left" Margin="39,32,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtIme"  HorizontalAlignment="Left" Margin="99,36,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Prezime:" HorizontalAlignment="Left" Margin="39,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtPrezime"  HorizontalAlignment="Left" Margin="99,79,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Godine:" HorizontalAlignment="Left" Margin="39,113,0,0" VerticalAlignment="Top"/>
+        <Label Content="Plata:" HorizontalAlignment="Left" Margin="39,149,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtGodine"  HorizontalAlignment="Left" Margin="99,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name ="txtPlata"  HorizontalAlignment="Left" Margin="99,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Nacionalnost:" HorizontalAlignment="Left" Margin="19,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.578,2.326"/>
+        <Label Content="Iskustvo:" HorizontalAlignment="Left" Margin="39,234,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtNacionalnost"  HorizontalAlignment="Left" Margin="99,199,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name ="txtIskustvo"  HorizontalAlignment="Left" Margin="99,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="bntSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="46,317,0,0" VerticalAlignment="Top" Click="bntSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="181,317,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+        <Label Content="Titule:" HorizontalAlignment="Left" Margin="39,271,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtTitule"  HorizontalAlignment="Left" Margin="99,275,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+    </Grid>
+</Window>

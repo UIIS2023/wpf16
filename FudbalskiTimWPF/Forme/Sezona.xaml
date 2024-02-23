@@ -1,0 +1,28 @@
+﻿<Window x:Class="FudbalskiTimWPF.Forme.Sezona"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FudbalskiTimWPF.Forme"
+        mc:Ignorable="d"
+        Title="Sezona" Height="463" Width="407">
+    <Grid Margin="0,0,0,-6">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="87*"/>
+            <ColumnDefinition Width="122*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Titula" HorizontalAlignment="Left" Margin="76,107,0,0" VerticalAlignment="Top"/>
+        <Label Content="Bodovi" HorizontalAlignment="Left" Margin="76,165,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtTitula" HorizontalAlignment="Left" Margin="8,111,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox x:Name ="txtBodovi" HorizontalAlignment="Left" Margin="8,169,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button x:Name ="btnDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="76,359,0,0" VerticalAlignment="Top" Height="38" Width="52" Click="btnDodaj_Click"/>
+        <Button x:Name ="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="68,359,0,0" VerticalAlignment="Top" Height="38" Width="73" Click="btnOtkazi_Click" Grid.Column="1"/>
+        <Label Content="Ulazak u Evropu?" HorizontalAlignment="Left" Margin="79,235,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name ="cbxEvropa" Content="Da/Ne" HorizontalAlignment="Left" Margin="68,246,0,0" VerticalAlignment="Top" Grid.Column="1"/>
+        <Label Content="Godina" HorizontalAlignment="Left" Margin="78,35,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name ="txtGodina" HorizontalAlignment="Left" Margin="10,39,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <ComboBox x:Name="cbFK" HorizontalAlignment="Left" Margin="13,299,0,0" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Label Content="Fudbalski klub:" HorizontalAlignment="Left" Margin="81,295,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
